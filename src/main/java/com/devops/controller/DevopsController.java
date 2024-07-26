@@ -12,6 +12,9 @@ public class DevopsController {
 	{
 		return "Hello Java";
 	}
-	
+	@GetMapping("/g)
+	public String getValue(){
+		return "Welcome";
+	}
 
 }
